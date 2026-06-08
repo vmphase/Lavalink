@@ -144,11 +144,11 @@ Response:
 
 ##### Playlist Result Data
 
-| Field      | Type                                  | Description                                |
-|------------|---------------------------------------|--------------------------------------------|
-| info       | [PlaylistInfo](#playlist-info) object | The info of the playlist                   |
+| Field      | Type                                  | Description                                  |
+|------------|---------------------------------------|----------------------------------------------|
+| info       | [PlaylistInfo](#playlist-info) object | The info of the playlist                     |
 | pluginInfo | Object                                | Additional playlist info provided by plugins |
-| tracks     | array of [Track](#track) objects      | The tracks of the playlist                 |
+| tracks     | array of [Track](#track) objects      | The tracks of the playlist                   |
 
 <details markdown="1">
 <summary>Example Payload</summary>
