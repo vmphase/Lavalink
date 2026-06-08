@@ -15,7 +15,7 @@ Routes are prefixed with `/v3` as of `v3.7.0` and `/v4` as of `v4.0.0`. Routes w
 
 ## Insomnia Collection
 
-You can find an [Insomnia](https://insomnia.rest/) collection in the [here](Insomnia.json) which contains all the endpoints and their respective payloads.
+You can find an [Insomnia](https://insomnia.rest/) collection [here](Insomnia.json) which contains all the endpoints and their respective payloads.
 
 ## Error Responses
 
@@ -147,7 +147,7 @@ Response:
 | Field      | Type                                  | Description                                |
 |------------|---------------------------------------|--------------------------------------------|
 | info       | [PlaylistInfo](#playlist-info) object | The info of the playlist                   |
-| pluginInfo | Object                                | Addition playlist info provided by plugins |
+| pluginInfo | Object                                | Additional playlist info provided by plugins |
 | tracks     | array of [Track](#track) objects      | The tracks of the playlist                 |
 
 <details markdown="1">
@@ -1140,7 +1140,7 @@ Response:
 
 ---
 
-### Unmark all failed address
+### Unmark all failed addresses
 
 ```
 POST /v4/routeplanner/free/all
